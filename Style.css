@@ -1,0 +1,245 @@
+body{
+  font-family:Inconsolata;
+  background-image: url('background-mobile.png');
+  background-size: cover;
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  z-index:0;
+  font-family: Sans-Serif;
+  
+}
+
+
+.name, .email, .link{
+  border: 1px solid grey;
+  padding: 15px;
+  width:105%;
+  border-radius:10px;
+  margin-top:10px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  margin-bottom:10px;
+}
+
+form{
+  width:90%;
+  margin: 0 auto;
+  margin-right:30px;
+  padding-right:500px;
+}
+button{
+  width:107%;
+  padding: 15px;
+  border-radius:10px;
+ border: none;
+  font-weight: bold;
+background-color: #c76554;
+}
+.container{
+  border:1px solid grey;
+  padding: 40px;
+  text-decoration: blink;
+  width:88%;
+  border-radius:10px;
+  text-align: center;
+  margin-top:10px;
+}
+
+
+.go{
+  border: 1px solid grey;
+}
+.gene{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+
+  
+}
+.dis{
+  
+margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+}
+
+h2{
+  color: white;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+}
+.hol,.sup{
+  width:120px;
+}
+p{
+  color:whitesmoke;
+  font-size: 18px;
+  opacity: 0.9;
+}
+.no{
+  width:109%;
+  margin-top:10px;
+    
+}
+label{
+  color: whitesmoke;
+  opacity: 0.8;
+}
+.up{
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+.uploaded-image{
+  width:100px;
+  border-radius:2%;
+  
+}
+.sec{
+  width:30px;
+  border-radius: 5px;
+}
+.flec{
+  display: flex;
+  gap:5px;
+  z-index:1000;
+  opacity: 2;
+  
+}
+.bl{
+  margin-bottom: 30px;
+  margin-top:0px;
+}
+
+.p{
+  
+  font-size: 12px;
+  opacity: 0.7;
+  color: white;
+  
+}
+.pl{
+  font-weight: bold; 
+  color: white;
+  
+  
+}
+.bok{
+  margin-top:  45px;
+}
+.bbil{
+  margin: 0px ;
+  
+  text-align: center;
+  line-height: 1.2;
+  color: whitesmoke;
+  opacity: 0.8;
+  padding:0px;
+  font-size: 14px;
+  margin-top:15px;
+  margin-bottom:20px;
+  
+}
+.bold{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+.sold{
+  margin: 0 auto;
+  width:360px;
+  justify-content: center;
+  align-items: center;
+  margin-left:30px;
+  margin-top:10px;
+  
+}
+.ball{
+  justify-content: center;
+  align-items: center;
+}
+.divine{
+  
+  width: 360px;
+  margin-left:80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:0px;
+  margin: 0 auto;
+
+}
+.hi{
+  font-size: 28px;
+  font-weight: bold;
+  word-spacing: 7px;
+  line-height: 1;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  opacity: 1.5;
+  
+}
+.span{
+  margin: 0 auto;
+  text-align: center;
+}
+.bol{
+  
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+align-items: center;
+  margin-bottom: 30px;
+}
+.in{
+  width:20px;
+}
+.inner{
+  width:400px;
+}
+b{
+  color:#f5737e;
+  opacity: 0.8;
+}
+.colos{
+  color:#f5737e;
+  opacity: 0.9;
+}
+.bi{
+  color:white;
+  word-spacing: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+.nol{
+  text-align: center;
+}
+.pads{
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.i{
+  color: #c76554;
+  width: 38px;
+  font-size: 30px;
+  background-color: #28284d;
+  padding: 8px;
+  margin: 0 auto;
+}
+.boo{
+  display: flex;
+  flex-direction: column;
+}
+.ip{
+  width:200px;
+}

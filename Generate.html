@@ -1,0 +1,66 @@
+
+
+<head>
+  <title>output</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="sold">
+  <div class="bol">
+    <img src="logo-full.svg" class="sup">
+  </div>
+  <div class="ball">
+    <div class="output"></div>
+    <div class="ticket-output"></div>
+  </div>
+  </div>
+
+    <div class="in">
+      <img src="pattern-squiggly-line-bottom-mobile-tablet.svg" class="inner">
+        </div>
+        
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let cart = JSON.parse(localStorage.getItem('save')) || [];
+      
+      let add = '';
+      cart.forEach(nit => {
+        add += `
+        <div class="span">
+          <span class="hi">Congrats, <b>${nit.name}!<b></span> 
+          <span class="hi">Your ticket is ready.</span>
+          </div>
+          <div class="bbil">
+          <span> We've emailed your ticket to</span> <span> <span class="colos">${nit.email}</span> and we will send updates in</span> <span>the run up to the event</span></div>
+        `;
+      });
+      document.querySelector('.output').innerHTML = add;
+
+      let result = '';
+      cart.forEach(loop => {
+        result += `
+        <div class="divine">
+          <div class="bok" style="position: relative; width: 250px; height: auto;">
+            <img src="pattern-ticket.svg" width="100%" style="display: block;">
+            <div style="position: absolute; top: 10px; left: 8px; bottom:0px;" >
+              <div class="bl">
+                <img src="logo-full.svg" class="sup">
+              </div>
+              <div class="flec">
+                <div>
+                  <img class="sec" src="${loop.image}">
+                </div>
+                <div class="bold">
+                  <span class="pl">${loop.name}</span>
+                  <span class="p">${loop.link}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        `;
+      });
+      document.querySelector('.ticket-output').innerHTML = result;
+    });
+  </script>
+</body>
